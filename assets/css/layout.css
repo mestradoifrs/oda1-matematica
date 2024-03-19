@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    font-size: 18px;
+}
+body {
+  padding-top: 56px;
+  padding-bottom:100px;
+
+}
+
+.container {
+  max-width: 1000px;
+}
+.hero {
+  width: 100%;
+  background: url(../img/bg.jpg) center center / 100% auto no-repeat;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.magic-lettering {
+  font-family: 'Chewy', cursive;
+  font-size: 2em;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  max-width: 490px;
+  text-align: center;
+}
+.magic-lettering span { 
+  font-size: 2em;
+  display: block;
+  
+}
+math {
+  font-size: 40px;
+  margin-top: 20px;
+  display: block;
+}
+h2, h3, h4 {
+  font-family: 'Chewy', cursive;
+  
+}
+h2 {
+  color: #2b5c85
+}
+h3 {
+  color: #953e78
+}
+h4 {
+  color: #f1c78d;
+}
+.desativar {
+  opacity: 0.5;
+  user-select: none;
+  pointer-events: none;
+  touch-action: none;
+  
+}
+.btn-danger.form-control:focus {
+
+  background-color: #ff7851;
+color: white
+}
+.btn-success.form-control:focus {
+
+  background-color: #56cc9d;
+  color: white
+
+}
+p {
+  line-height: 1.8em;
+}
+.text-center.equacao {
+  font-size: 3em;
+  font-weight: bold;
+}
+.alert.alert-primary {
+  background-color: #f2f2f2;
+}
+@media only screen and (max-width: 991px){
+  .hero {
+    background-size: cover;
+  }
+}
