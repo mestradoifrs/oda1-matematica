@@ -11,7 +11,7 @@ $(function (){
         var segundos = tempoTotal % 60;
 
         // Exibindo o contador na div com ID "contador"
-        $('#contador').text(minutos + ':' + segundos);
+        $('#contador').text(minutos.toString().padStart(2, "0") + ':' + segundos.toString().padStart(2, "0"));
 
         // Decrementando o tempo total
         tempoTotal--;
