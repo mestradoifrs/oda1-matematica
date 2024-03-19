@@ -1,0 +1,186 @@
+.tags {
+    position: absolute;
+    display: block;
+    
+}
+
+.tags p {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 1px;
+  color: #ffffff00;
+}
+
+/* Introdução */
+.tag1
+{
+  top: 18.25em;
+  left: 4em;
+  background: url(../img/desktop/tags/tag_01.png) top left / 100% auto no-repeat;
+  width: 29.25em;
+  height: 26.4375em;
+}
+
+.tag2
+{
+  top: 110.5em;
+  left: 10.75em;
+  background: url(../img/desktop/tags/tag_02.png) top left / 100% auto no-repeat;
+  width: 27.125em;
+  height: 28.638em;
+}
+
+.tag3
+{
+  top: 204.625em;
+  right: 6.063em;
+  background: url(../img/desktop/tags/tag_03.png) top left / 100% auto no-repeat;
+  width: 31.188em;
+  height: 40.6875em;
+} 
+
+.tag4
+{
+  top: 265.25em;
+  left: 8.3em;
+  background: url(../img/desktop/tags/tag_04.png) top left / 100% auto no-repeat;
+  width: 33.625em;
+  height: 43.6875em;
+}
+
+.tag5
+{
+  top: 361.625em;
+  left: 5.875em;
+  background: url(../img/desktop/tags/tag_05.png) top left / 100% auto no-repeat;
+  width: 30.813em;
+  height: 29.788em;
+}
+/* Cultura */
+.tag6
+{
+  top: 436.4em;
+  right: 6.625em;
+  background: url(../img/desktop/tags/tag_06.png) top left / 100% auto no-repeat;
+  width: 26.938em;
+  height: 42.1875em;
+}
+
+.tag7
+{
+  top: 515.625em;
+  left: 7.5em;
+  background: url(../img/desktop/tags/tag_07.png) top left / 100% auto no-repeat;
+  width: 30.938em;
+  height: 23.438em;
+}
+
+.tag8
+{
+  top: 596.688em;
+  right: 4.375em;
+  background: url(../img/desktop/tags/tag_08.png) top left / 100% auto no-repeat;
+  width: 27.25em;
+  height: 21.788em;
+}
+/* Mídia */
+
+.tag9
+{
+  top: 701.25em;
+  left: 10em;
+  background: url(../img/desktop/tags/tag_09.png) top left / 100% auto no-repeat;
+  width: 27.938em;
+  height: 26.8em;
+}
+
+.tag10
+{
+  top: 760.05em;
+  right: 10.75em;
+  background: url(../img/desktop/tags/tag_10.png) top left / 100% auto no-repeat;
+  width: 26.875em;
+  height: 22.6em;
+}
+/* Criações funcionais */
+.tag11
+{
+  top: 918.25em;
+  right: 6.625em;
+  background: url(../img/desktop/tags/tag_11.png) top left / 100% auto no-repeat;
+  width: 33.188em;
+  height: 28.163em;
+}
+
+.tag12
+{
+  top: 1017.125em;
+  right: 4.875em;
+  background: url(../img/desktop/tags/tag_12.png) top left / 100% auto no-repeat;
+  width: 31.5em;
+  height: 33.125em;
+}
+
+.tag13
+{
+  top: 1181.75em;
+  right: 13.75em;
+  background: url(../img/desktop/tags/tag_13.png) top left / 100% auto no-repeat;
+  width: 25.25em;
+  height: 25.888em;
+}
+
+.tag14
+{
+  top: 1287.25em;
+  left: 10.75em;
+  background: url(../img/desktop/tags/tag_14.png) top left / 100% auto no-repeat;
+  width: 30.188em;
+  height: 27.088em;
+}
+
+.tag15
+{
+  top: 1464.563em;
+  left: 0;
+  background: url(../img/desktop/tags/tag_15.png) top left / 100% auto no-repeat;
+  width: 39.25em;
+  height: 19.975em;
+}
+
+.tag16
+{
+  top: 1495.75em;
+  right: 8.75em;
+  background: url(../img/desktop/tags/tag_16.png) top left / 100% auto no-repeat;
+  width: 30.063em;
+  height: 25.588em;
+}
+
+.tag17
+{
+  top: 1591.375em;
+  left: 18.25em;
+  background: url(../img/desktop/tags/tag_17.png) top left / 100% auto no-repeat;
+  width: 29.938em;
+  height: 34.525em;
+}
+
+.tag18
+{
+  top: 1654.25em;
+  right: 10.875em;
+  background: url(../img/desktop/tags/tag_18.png) top left / 100% auto no-repeat;
+  width: 26.25em;
+  height: 26.775em;
+}
+
+.tag19
+{
+  top: 1737.25em;
+  left: 13.625em;
+  background: url(../img/desktop/tags/tag_19.png) top left / 100% auto no-repeat;
+  width: 33.188em;
+  height: 33.125em;
+}
