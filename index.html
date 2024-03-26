@@ -154,56 +154,61 @@
                 
                 <h2 id="praticar">É hora de praticar!</h2>
                 <p>Quantas equações você consegue resolver? Você terá um minuto para resolver o maior número de equações que conseguir. Quando estiver pronto clique ou toque no botão abaixo:</p>
-               <div class="app">
-                    <div id="capa" class="">
-                        <p class="text-center">
-                            <img src="assets/img/menino.jpeg" class="img-fluid d-inline-block" alt="" style="max-width: 300px;"><br><br>
-                            <button class="btn btn-danger iniciar" type="button">Começar</button>
-                        </p>
-                    </div>
-                    <div id="gameplay" class="d-none">
-                        
-                        <div class="card" style=" margin: auto;">
-
-                         <div class="card-top">
-                            <div class="alert alert-info text-center" style="margin: auto;">Contador: <strong><span id="contador">01:00</span></strong></div><br>
-                            <p class="text-center equacao" ><span id="equacao">= ?</span></p>
-                         </div>
-                            <div class="card-body">
-                              <div class="row" id="resultados">
-                                
-                                
-                              </div>
-                              <button class="btn btn-dark mt-2 d-none form-control" id="proximo">Próximo</button>
-                            </div>
-                          </div>
-                        
-                    </div>
-                    <div id="scorefinal" class="d-none">
-                        <div class="card" style="max-width: 350px; margin: auto;">
-
-                            <div class="card-top">
-                               <div class="alert alert-success text-center" style="margin: auto;">Sua pontuação final foi: </div><br>
-                               <p class="text-center equacao" id="score">37</p>
-                            </div>
-                               <div class="card-body">
-                                 <div class="row">
-                                    <div class="col-2"></div>
-                                   <div class="col-8">
-                                    <button class="btn btn-danger form-control reiniciar" type="button">Reiniciar</button>
-                                   </div>
-                                   <div class="col-2"></div>
-                                 </div>
-                               </div>
-                             </div>
-                    </div>
-               </div>
+               
 
             </div>
-        
+            
         </div>
       </div>
-      <div class="w-100" style="border-bottom: 10px solid #2b5c85; margin-top: 100px;"></div>
+      <div class="app">
+
+        <div class="container">
+          <h3 id="praticar" class="text-center">Desafio da multiplicação!</h3>
+          <div id="capa" class="">
+            <p class="text-center">
+              <img src="assets/img/menino.jpeg" class="img-fluid d-inline-block" alt="" style="max-width: 300px;border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                <button type="button" class="btn btn-danger iniciar d-block m-auto form-control" style="max-width: 300px;border-top-left-radius: 0px;border-top-right-radius: 0px;">Começar</button>
+            </p>
+        </div>
+        <div id="gameplay" class="d-none">
+            
+            <div class="card" style=" margin: auto;">
+
+             <div class="card-top">
+                <div class="alert alert-info text-center" style="margin: auto;">Contador: <strong><span id="contador">01:00</span></strong></div><br>
+                <p class="text-center equacao" ><span id="equacao">= ?</span></p>
+             </div>
+                <div class="card-body">
+                  <div class="row" id="resultados">
+                    
+                    
+                  </div>
+                  <button class="btn btn-dark mt-2 d-none form-control" id="proximo">Próximo</button>
+                </div>
+              </div>
+            
+        </div>
+        <div id="scorefinal" class="d-none">
+            <div class="card" style="max-width: 350px; margin: auto;">
+
+                <div class="card-top">
+                   <div class="alert alert-success text-center" style="margin: auto;">Sua pontuação final foi: </div><br>
+                   <p class="text-center equacao" id="score">37</p>
+                </div>
+                   <div class="card-body">
+                     <div class="row">
+                        <div class="col-2"></div>
+                       <div class="col-8">
+                        <button class="btn btn-danger form-control reiniciar" type="button">Reiniciar</button>
+                       </div>
+                       <div class="col-2"></div>
+                     </div>
+                   </div>
+                 </div>
+        </div>
+        </div>
+   </div>
+      <div class="w-100" style="border-bottom: 10px solid #2b5c85; margin-top: 10px;"></div>
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.js"></script>
     <script src="assets/js/quiz.js"></script>
